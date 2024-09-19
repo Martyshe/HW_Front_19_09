@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset class="form">
+        <input id="firstname" placeholder="firstname" type="text">
+        <input id="lastname" placeholder="lastname" type="text">
+        <input id="age" placeholder="age" type="number">
+        
+       
+            <div>
+                <input type="radio" id="male" name="pol" value="male" checked>
+                <label for="male">male</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="female" name="pol" value="female">
+                 <label for="fefmale">female</label>
+            </div>
+            
+            <div>
+            <input type="radio" id="child" name="pol" value="child">
+            <label for="child">child</label>
+            </div>
+
+        
+        <select name="lang" id="lang">
+            <option value="English">English</option>
+            <option value="German">German</option>
+            <option value="Russian">Russian</option>
+        </select>
+
+        <select name="country" id="country">
+            <option value="England">England</option>
+            <option value="Germany">Germany</option>
+            <option value="Russia">Russia</option>
+        </select>
+        <button id="Save">Save</button>
+        <button id="Restore">Restore</button>
+        <button id="Clear">Clear</button>
+
+
+
+    </fieldset>
+    <script src="./script.js"></script>
+</body>
+</html>
